@@ -48,7 +48,7 @@ a:not([class]) {
 
 img,
 picture {
-  height: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -58,6 +58,7 @@ picture {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 40px;
   border-radius: 36px;
   background: #FFF;
   box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
@@ -74,7 +75,6 @@ picture {
 }
 .wrapper .content {
   order: 1;
-  padding: 10px 20px;
   max-width: 327px;
 }
 .wrapper .content h1 {
@@ -94,7 +94,7 @@ picture {
 .wrapper .content .description {
   color: var(--Dark-Navy, #242742);
   font-feature-settings: "clig" off, "liga" off;
-  /* Body */
+  margin: 24px 0px;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -103,6 +103,73 @@ picture {
 }
 .wrapper .content .list-item {
   display: flex;
-  gap: 15px;
+  gap: 16px;
   margin-top: 10px;
+}
+.wrapper .content .list-item p {
+  color: var(--Dark-Navy, #242742);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.wrapper .content form {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.wrapper .content form p {
+  color: var(--Dark-Navy, #242742);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.wrapper .content form input {
+  width: 327px;
+  height: 56px;
+  padding: 5px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--grey-25, rgba(25, 24, 43, 0.25));
+}
+.wrapper .content form input::-moz-placeholder {
+  color: var(--Dark-Navy, #242742);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.wrapper .content form input::placeholder {
+  color: var(--Dark-Navy, #242742);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.wrapper .content form button {
+  width: 327px;
+  height: 56px;
+  border-radius: 8px;
+  background: var(--Dark-Navy, #242742);
+  color: var(--White, #FFF);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.wrapper .image-container {
+  width: 375px;
+  height: 284px;
 }/*# sourceMappingURL=style.css.map */
