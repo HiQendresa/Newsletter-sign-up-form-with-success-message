@@ -201,4 +201,57 @@ picture {
     width: 400px;
     height: 593px;
   }
+}
+
+.confirmation-container {
+  width: 504px;
+  height: 520px;
+  margin: 0 auto;
+  padding: 48px 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 36px;
+  background: #FFF;
+  box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+}
+.confirmation-container .icon-success {
+  width: 64px;
+  height: 64px;
+}
+.confirmation-container h1 {
+  color: var(--Dark-Navy, #242742);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+.confirmation-container p {
+  color: var(--Dark-Navy, #242742);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.confirmation-container p span {
+  font-weight: 700;
+}
+.confirmation-container button {
+  width: 376px;
+  height: 56px;
+  border: none;
+  border-radius: 8px;
+  background: var(--Dark-Navy, #242742);
+  color: var(--White, #FFF);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
 }/*# sourceMappingURL=style.css.map */
